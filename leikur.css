@@ -1,0 +1,49 @@
+body {
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    font-size: .85em;
+    background-color: #000000;
+    color: #9b0202;
+  }
+  
+  h1 {
+    color: #860400;
+    text-shadow: 0px 0px 5px #a0a8aF;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 412px;
+    margin: 50px auto;
+  }
+  
+  .description {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tetrisCanvas {
+    box-shadow: 0px 0px 5px #740303;
+    outline: none;
+  }
+
+div.takkar{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    
+}
+button.takki{
+    color: rgb(218, 218, 218);
+    background-color: rgb(70, 70, 70);
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 200px;
+    box-shadow: rgb(119, 119, 119) 0px 0px 10px;
+    font-weight: bold;
+}
+button.takki:hover{
+    background-color: rgb(46, 46, 46);
+    box-shadow: rgb(46, 46, 46) 0px 0px 10px;
+}
